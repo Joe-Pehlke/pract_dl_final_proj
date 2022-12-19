@@ -1,11 +1,11 @@
 # pract_dl_final_proj
-#Project Overview
+# Project Overview
 We different algorithms to run on the Chicken in the Matrix multi-agent test scenario from https://github.com/deepmind/meltingpot.
 The main contributions of our project come from running different versions of the training script (the algorithms we use are policy gradients, ppo, and a3c) on distinct hardware setups in the cloud and benchmarking the results. We ran on T4 and A100 Gpus for PPO and different CPU configurations for PPO, A3C, and PG. We trained for just 20-50 episodes as we were constrained by time and compute cost. We wanted to find if we could determine what the best algorithm would be for a small number of timesteps in this environment. 
 
-#Repository Guide
+# Repository Guide
 
-#Setup
+# Setup
 From the nviida image: https://console.cloud.google.com/marketplace/product/nvidia-ngc-public/nvidia-gpu-optimized-vmi?project=practdl-hw4
 Set up a GCP instance with at least 14 CPU (or 12 for A100) and either T4 or A100 GPU
 cli:git clone https://github.com/deepmind/meltingpot
@@ -40,4 +40,4 @@ Inside of these directories is a subdirectory for a specific trial, and inside t
 This is the data that we save in this repository.
 
 
-#Results
+# Results
